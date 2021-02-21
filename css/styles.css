@@ -1,0 +1,88 @@
+/**COMMON BEGINS**/
+html,body{
+     height: 100%;
+}
+body{
+     font-weight: 200;
+     font-size: 1.5rem;
+     color: #444;
+}
+.full-height{
+     height: 100%;
+}
+
+
+
+/**COMMON ENDS**/
+/**INTRO LEFT**/
+.intro-left{
+     background: url(../img/1.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+
+     position: fixed;
+     left: 0;
+     width: 33.33%;
+     height: 100%;
+     color: #fff;
+
+}
+@media screen and (max-width: 768px){
+     .intro-left{
+          height: 30vh;
+          margin-bottom: 0;
+          position: relative;
+          width: 100%;
+     }
+}
+.avatar{
+     width: 10rem;
+     height: 10rem;
+     border-radius: 50%;
+     margin: 1rem;
+}
+
+/**MAIN CONTAINER**/
+.main-container{
+     margin-left: 33.33%;
+}
+.quote{
+     float: right;
+     text-align: right;
+     margin-top: 3rem;
+}
+section.intro{
+     margin: 5rem;
+     font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px){
+     .main-container{
+          /* width: 100vw; padding: 0; */
+          margin-left:0;
+     }
+}
+
+
+/**PROJECTS SECTION */
+.projects .row{
+     
+}
+.projects img{
+     border-radius: 5px;
+     margin-bottom: 10px;
+     cursor: pointer;
+     width: 100%;
+     filter: grayscale(1) brightness(0.8);
+     transition: filter .3s ease-in;
+}
+.projects img:hover,
+.projects img:focus{
+     filter: grayscale(0) brightness(1);
+}
+
+.container-fluid .column.col-lg-6{
+     
+}
